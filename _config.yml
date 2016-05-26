@@ -33,7 +33,7 @@ author: "John Segar"
 title: "{ John Segar }"
 description: "Blog and website of John Segar."
 keywords: "john, segar"
-favicon: "/img/favicon.ico"
+favicon: "/img/peace.jpg"
 
 ################
 # Header layout #
@@ -110,15 +110,18 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/headshot3.jpg"
-    date: "September 2013 - Today"
+    date: "5th March 2016 - Today"
     description: "Coding brain!"
   - image: "/img/timeline/headshot2.jpg"
-    date: "First day of coding."
-    description: "Started coding"
+    date: "4th March 2016"
+    description: "First day of coding!"
+  - image: "/img/timeline/headshot1.jpg"
+    date: "pre 2016"
+    description: "Before coding. Worked at Credit Suisse, LVMH..."
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/headshot1.jpg"
+timeline-img: "/img/timeline/sushi.jpg"
 
 ###########
 # Contact #
@@ -167,7 +170,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Projects: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
