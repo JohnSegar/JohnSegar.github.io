@@ -31,7 +31,7 @@ force-https: True
 lang: "en"
 author: "John Segar"
 title: "{ John Segar }"
-description: "Blog and website of John Segar."
+description: "Website of John Segar."
 keywords: "john, segar"
 favicon: "/img/peace.jpg"
 
@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Hello there! Welcome to John's Website."
+  - text: "Welcome to John's Website."
   - text: "It's the best one out there!"
 
 me-img: "/img/headshotss.jpg"
