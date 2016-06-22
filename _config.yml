@@ -56,7 +56,6 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Welcome to my website!"
-  - text: "I am a web developer!"
   - text: "Find my contact details at the bottom of this page."
 
 me-img: "/img/headshotss.jpg"
