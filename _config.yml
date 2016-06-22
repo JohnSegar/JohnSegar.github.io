@@ -151,10 +151,7 @@ social:
     url: "https://twitter.com/JohnSegar1515"
   - title: "github"
     url: "https://github.com/johnsegar"
-  - title: "bitcoin"
-    url: ""
-  - title: "rss"
-    url: "/feed.xml"
+
 
 ############
 # 404 page #

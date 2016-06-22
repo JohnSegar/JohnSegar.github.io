@@ -18,10 +18,10 @@ social:
     url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
+  <!-- - title: "bitcoin"
     url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
-    url: "/feed.xml"
+    url: "/feed.xml" -->
 </code></pre>
 
 The title selects the desired [Font Awesome](https://fortawesome.github.io/Font-Awesome/icons/)
