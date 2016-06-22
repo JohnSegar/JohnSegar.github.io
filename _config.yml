@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: "John Segar"
-title: "John Segar"
+title: "John Segar { Web Developer }"
 description: "Website of John Segar."
 keywords: "john, segar"
 favicon: "/img/peace.jpg"
