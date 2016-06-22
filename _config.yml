@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "I am a Web Developer"
+  - text: "Welcom to my website"
   - text: "Find my contact details at the bottom of this page."
 
 me-img: "/img/headshotss.jpg"
