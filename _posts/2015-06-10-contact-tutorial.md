@@ -18,7 +18,3 @@ You can modify the Contact text from the /contact.html file and set the email in
 <pre><code data-trim class="yaml">
 email: "your@email.here"
 </code></pre>
-
-Don't be afraid of email harvesting, write your email properly and the page will perform javascript obfuscation.
-
-<small>Many thanks to <a href="https://github.com/joariasl" target="\_blank">@joariasl</a> for this feature!</small>

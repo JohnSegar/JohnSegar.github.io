@@ -22,15 +22,15 @@ google-tracking-id: ""
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-# force-https: True
+force-https: True
 
 #############
 # HTML Head #
 #############
 
 lang: "en"
-author: "John Segar"
-title: "John Segar { Web Developer}"
+author: "John Segar { Web Developer }"
+title: "John Segar { Web Developer }"
 description: "Website of John Segar."
 keywords: "john, segar"
 favicon: "/img/peace.jpg"
@@ -39,7 +39,7 @@ favicon: "/img/peace.jpg"
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+# black-favicon: "/img/black-lab-glass.ico"
 
 background-img: "../img/london.jpg"
 

@@ -1,4 +1,4 @@
-
+<!--
 <!-- Latest Post Preview Start -->
 
 <section id="{{ page.section-type }}" class="container content-section text-center">
@@ -8,19 +8,30 @@
         {{ page.content | markdownify }}
 
         {% assign post = site.posts.first %}
-        <h4> <strong> {{ post.date | date_to_string }} </strong>
-          <small>.
-            <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
+        <!-- <h4> <strong> {{ post.date | date_to_string }} </strong>
+          <small>. -->
+            <!-- <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
               {{ post.category }}
             </a>
           .</small>
           <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
-        </h4>
+        </h4> -->
 
         {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
 
-        <h4><a href="{{site.baseurl}}/blog/">View more posts</a></h4>
+        <!-- <h4><a href="{{site.baseurl}}/blog/">View more posts</a></h4> -->
+        <h2>
+        <a href="https://thawing-coast-68442.herokuapp.com/" target="\_blank">Spacey</a></h2><p>Spacey is a Tetris inspired, one player game. It was the first app I built during the WDI course at GA, and was built using HTML5, CSS, JavaScript & jQuery using OOP.</p>
+
+        <h2>
+        <a href="https://weddit-project.herokuapp.com/" target="\_blank">Weddit</a><br></h2><p>Weddit is an app used for those getting married, where all the information for their wedding can be put in one place. The guests can also comment on, and upload photos to the individual wedding they are attending. Weddit is a RESTful app built with Ruby on Rails.</p>
+
+        <h2>
+        <a href="https://znn.herokuapp.com/" target="\_blank">ZNN</a><br></h2><p>ZNN was a group project, and the third whilst at GA. The idea behind it was to make a website for all information required in case of a hypothetical zombie outbreak. It was built in JavaScript, and incorporated Node, Express and Mongo. A number of API's were used, including the Google Maps and YouTube API.</p>
+
+        <h2>
+        <a href="https://lets-play-together.herokuapp.com/#/" target="\_blank">Let's Play Together</a><br></h2><p>Lets Play Together was my final project at GA. Users can login and select which game they are currently playing (using the IGDB API) and then see all other users who are also playing that same game. Alternatively a user can search all users by their name or what they are playing. It was built using the AngularJS framework.</p>
 
       </div>
     </div>
